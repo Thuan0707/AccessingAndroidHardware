@@ -3,7 +3,7 @@
     package="com.example.aah_group8">
 
   <uses-feature
-      android:name="android.hardware.Camera"
+      android:name="android.hardware.Camera2"
       android:required="true"/>
 
     <application
