@@ -1,3 +1,4 @@
+
 package com.example.aah_group8;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button btn, btnCompass;
+    Button btn, btnCompass,button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,16 @@ public class MainActivity extends AppCompatActivity {
 
         btn.setOnClickListener(v -> CameraMethod());
         btnCompass.setOnClickListener(v -> compassMethod());
+
+         button  =  findViewById(R.id.button);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, TelephonyActivity.class);
+                startActivity(intent);
+            }
+        });
     }
     public void CameraMethod(){
         Intent switchActivityIntent = new Intent(this, CameraActivity.class);

@@ -7,6 +7,9 @@
       android:name="android.hardware.Camera"
       android:required="true"/>
 
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,7 +17,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AAH_Group8">
+
         <activity android:name=".CameraActivity"></activity>
+
+        <activity android:name=".call_monitoring.MonitoringActivity"></activity>
+        <activity android:name=".action_call.Action_CallActivity" />
+        <activity android:name=".actiion_dial.Action_DialActivity" />
+        <activity
+            android:name=".TelephonyActivity"
+            android:label="@string/title_activity_telephony"
+            android:theme="@style/Theme.AAH_Group8.NoActionBar" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,8 +35,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".CompassActivity" />
         <activity android:name=".KhuongActivity" />
+
+
+        <receiver android:name=".call_monitoring.CallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+
     </application>
 
 </manifest>
