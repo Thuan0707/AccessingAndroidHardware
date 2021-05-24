@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnNetwork"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_marginTop="28dp"
+        android:text="NETWORK"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btnWifi"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_marginTop="28dp"
+        android:onClick="onClickWifiBtn"
+        android:text="WIFI"
+        app:layout_constraintTop_toBottomOf="@+id/btnBluetooth"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btnBluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_marginTop="28dp"
+        android:text="BLUETOOTH"
+        app:layout_constraintTop_toBottomOf="@+id/btnNetwork"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
