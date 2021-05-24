@@ -30,4 +30,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CompassActivity.class);
         startActivity(intent);
     }
+    public void sendMessage(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, KhuongActivity.class);
+        startActivity(intent);
+    }
 }
