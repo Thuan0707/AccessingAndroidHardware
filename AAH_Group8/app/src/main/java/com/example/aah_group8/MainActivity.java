@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(v -> CameraMethod());
         btnCompass.setOnClickListener(v -> compassMethod());
 
-         button  =  findViewById(R.id.button);
+        button  =  findViewById(R.id.buttonHien);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
