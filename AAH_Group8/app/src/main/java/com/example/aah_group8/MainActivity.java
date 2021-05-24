@@ -9,22 +9,22 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button btn, btnCompass,button;
+    Button btnCamera, btnCompass,buttonCall;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn = findViewById(R.id.button1);
+        btnCamera = findViewById(R.id.buttonCamera);
         btnCompass = findViewById(R.id.btnCompass);
 
-        btn.setOnClickListener(v -> CameraMethod());
+        btnCamera.setOnClickListener(v -> CameraMethod());
         btnCompass.setOnClickListener(v -> compassMethod());
 
-        button  =  findViewById(R.id.buttonHien);
+        buttonCall  =  findViewById(R.id.buttonCall);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        buttonCall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, TelephonyActivity.class);
