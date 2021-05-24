@@ -22,6 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".CompassActivity" />
+        <activity android:name=".KhuongActivity" />
     </application>
 
 </manifest>
