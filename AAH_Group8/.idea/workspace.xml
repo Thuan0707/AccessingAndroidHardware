@@ -19,16 +19,27 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/Hien" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58a37b44-eb94-4e56-8cf0-09bce0197d2a" name="Default Changelist" comment="" />
+    <list default="true" id="58a37b44-eb94-4e56-8cf0-09bce0197d2a" name="Default Changelist" comment="add Code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/aah_group8/CommunicationMainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/communications_main.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\legion\.android\avd\Nexus_5X_API_26.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\PC\.android\avd\Pixel_2_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -173,5 +184,21 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="780" y="148" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1621664993399" />
+    <state width="1478" height="221" key="GridCell.Tab.0.bottom" timestamp="1621872226194">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1478" height="221" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1621872226194" />
+    <state width="1478" height="221" key="GridCell.Tab.0.center" timestamp="1621872226194">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1478" height="221" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1621872226194" />
+    <state width="1478" height="221" key="GridCell.Tab.0.left" timestamp="1621872226193">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1478" height="221" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1621872226193" />
+    <state width="1478" height="221" key="GridCell.Tab.0.right" timestamp="1621872226194">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1478" height="221" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1621872226194" />
   </component>
 </project>
