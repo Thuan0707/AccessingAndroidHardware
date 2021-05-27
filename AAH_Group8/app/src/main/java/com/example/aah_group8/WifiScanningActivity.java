@@ -9,6 +9,7 @@ import android.content.IntentFilter;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -47,15 +48,19 @@ public class WifiScanningActivity extends AppCompatActivity {
         }
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, arrayList);
         listView.setAdapter(adapter);
+        Intent myIntent = new Intent( Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+        startActivity(myIntent);
         scanWifi();
     }
-
     private void scanWifi() {
         arrayList.clear();
         registerReceiver(wifiReceiver, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
         wifiManager.startScan();
         Toast.makeText(this, "Scanning WiFi ...", Toast.LENGTH_SHORT).show();
+
+
     }
+
     BroadcastReceiver wifiReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
@@ -67,4 +72,5 @@ public class WifiScanningActivity extends AppCompatActivity {
             }
         }
     };
+
 }

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
@@ -30,9 +35,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a37b44-eb94-4e56-8cf0-09bce0197d2a" name="Default Changelist" comment="add Code">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/aah_group8/CommunicationMainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/communications_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/aah_group8/WifiScanningActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/aah_group8/WifiScanningActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +89,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@C:\Users\PC\.android\avd\Pixel_2_API_30.avd" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-05-25T03:01:19.726514800Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -168,7 +177,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Hien" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -180,25 +201,34 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="349" y="172" key="AndroidCreateResourceDirectoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1621664790621" />
-    <state x="780" y="148" key="FileChooserDialogImpl" timestamp="1621664993399">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="780" y="153" key="FileChooserDialogImpl" timestamp="1622081591265">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="780" y="148" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1621664993399" />
-    <state width="1478" height="221" key="GridCell.Tab.0.bottom" timestamp="1621872226194">
+    <state x="780" y="153" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1622081591265" />
+    <state width="746" height="222" key="GridCell.Tab.0.bottom" timestamp="1622081538115">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1478" height="221" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1621872226194" />
-    <state width="1478" height="221" key="GridCell.Tab.0.center" timestamp="1621872226194">
+    <state width="746" height="222" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622081538115" />
+    <state width="746" height="222" key="GridCell.Tab.0.center" timestamp="1622081538115">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1478" height="221" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1621872226194" />
-    <state width="1478" height="221" key="GridCell.Tab.0.left" timestamp="1621872226193">
+    <state width="746" height="222" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1622081538115" />
+    <state width="746" height="222" key="GridCell.Tab.0.left" timestamp="1622081538115">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1478" height="221" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1621872226193" />
-    <state width="1478" height="221" key="GridCell.Tab.0.right" timestamp="1621872226194">
+    <state width="746" height="222" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1622081538115" />
+    <state width="746" height="222" key="GridCell.Tab.0.right" timestamp="1622081538115">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1478" height="221" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1621872226194" />
+    <state width="746" height="222" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1622081538115" />
+    <state x="288" y="165" key="Vcs.Push.Dialog.v2" timestamp="1621911964945">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="288" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1621911964945" />
+    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622081610456">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1622081610456" />
   </component>
 </project>
